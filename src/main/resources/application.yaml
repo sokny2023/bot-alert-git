@@ -12,8 +12,8 @@ telegram:
 
 spring:
   application:
-    name: "ISTAD-LMS"
+    name: "gradesbot-git-alert"
   profiles:
     active: dev
 server:
-  port: 5555
+  port: 2024

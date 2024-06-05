@@ -9,4 +9,4 @@ services:
     environment:
       - TZ=Asia/Bangkok
     ports:
-      - '5555:2024'
+      - '2024:2024'
