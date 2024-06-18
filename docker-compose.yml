@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   git-alert:
-    container_name: 'alert-to-bot'
+    container_name: 'git-alert'
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,4 +9,4 @@ services:
     environment:
       - TZ=Asia/Bangkok
     ports:
-      - '2024:2024'
+      - '3333:8080'
